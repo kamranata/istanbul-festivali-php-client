@@ -3,7 +3,15 @@
   "description": "Framework-agnostic PHP client for Istanbul Festivali API with automatic token caching, comprehensive error handling, and PSR compliance",
   "type": "library",
   "license": "MIT",
-  "keywords": ["istanbul", "festivali", "api", "client", "php", "tickets", "reservations"],
+  "keywords": [
+    "istanbul",
+    "festivali",
+    "api",
+    "client",
+    "php",
+    "tickets",
+    "reservations"
+  ],
   "authors": [
     {
       "name": "Kamran Ata",
@@ -38,6 +46,10 @@
     "allow-plugins": {
       "php-http/discovery": true
     }
+  },
+  "support": {
+    "issues": "https://github.com/kamranata/istanbul-festivali-php-client/issues",
+    "source": "https://github.com/kamranata/istanbul-festivali-php-client"
   },
   "minimum-stability": "stable",
   "prefer-stable": true
