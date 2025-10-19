@@ -1,0 +1,15 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force Unix line endings for text files
+*.php text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+
+# Exclude vendor directory from export
+/vendor/ export-ignore
+
+# Exclude test files from export
+/tests/ export-ignore
+phpunit.xml export-ignore
