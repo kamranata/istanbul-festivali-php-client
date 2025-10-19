@@ -289,14 +289,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Support
 
 For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/kamranata/istanbul-festivali-php-client).
-
-## Changelog
-
-### Version 2.0.0
-- Complete rewrite with improved architecture
-- Added comprehensive error handling
-- Implemented PSR compliance
-- Added extensive test coverage
-- Improved documentation and examples
-- Added health check functionality
-- Enhanced security and performance features
