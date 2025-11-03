@@ -80,7 +80,7 @@ $cache = new FilesystemAdapter('istanbul-festivali', 0, '/tmp/cache');
 $httpClient = new GuzzleClient([
     'timeout' => 30,
     'connect_timeout' => 10,
-    'verify' => false, // Only for development
+    'verify' => false, // Only for development, enable on production
 ]);
 
 $client = new IstanbulFestivaliClient(
